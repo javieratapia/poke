@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        <img src="https://media.redadn.es/imagenes/pokemaster_282979.jpg" alt="logo pokemon">
+    </header>
+    <form id="formulario">
+        <label for="">Buscar Pokemon</label>
+        <br>
+        <br>
+    <input type="text" id="pokemon" name="nombre">
+
+    <button type="submit" value="enviar" class="boton" id="boton" onsubmit="return formulario();">Buscar</button>
+    <section class="info">
+        <div class="poke_name"></div>
+        <img id="imagen"src="" alt="">
+    </section>
+    
+    <section class="poke_info">
+
+    </section>
+    <section id="chartContainer" style="height: 370px; width: 100%;"></section>
+</form>
+<script src="javascript.js"></script>
+</body>
+</html>
